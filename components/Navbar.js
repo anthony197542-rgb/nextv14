@@ -4,18 +4,17 @@ function Navbar() {
   return (
     <nav className="bg-blue-400">
       <ul className="flex justify-center space-x-4 text-xl p-3">
-          <li>
-    <Link href="/">Home</Link>
-  </li>
-  <li>
-    <Link href="/posts">Posts</Link>
-  </li>
-  <li>
-    <Link href="/contact">Contact</Link>
-    <input type="text" placeholder="Search..."/>
-  </li>
-</ul>
-  
+        <Link href={"/"}>
+          <li>Home</li>
+        </Link>
+        <Link href={"/posts"}>
+          <li>Posts</li>
+        </Link>
+        <Link href={"/contact"}>
+          <li>Contact</li>
+        </Link>
+        <input placeholder="Search..." />
+      </ul>
     </nav>
   );
 }
