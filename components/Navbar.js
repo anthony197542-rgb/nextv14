@@ -3,7 +3,7 @@ import Link from "next/link";
 function Navbar() {
   return (
     <nav className="bg-blue-400">
-      <ul className="flex justify-center space-x-4 text-xl p-3">
+      <ul className="flex items-center gap-6">
         <Link href={"/"}>
           <li>Home</li>
         </Link>
