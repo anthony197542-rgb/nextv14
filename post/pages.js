@@ -1,16 +1,16 @@
- import React from "react";
- import Navbar from "@/components/Navbar";
+import React from "react";
+import Navbar from "@/components/Navbar";
 
- 
- function Page(){
-   return (
+
+function Page() {
+  return (
     <div>
-    
+
       This is the post page
-      </div>
-   ); 
- }
+    </div>
+  );
+}
 
-    
 
- export default Page;
+
+export default Page;
