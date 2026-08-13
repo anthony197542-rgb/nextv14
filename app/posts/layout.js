@@ -1,7 +1,8 @@
 import React from 'react'
+import CreatePost from "@/components/CreatePost";
 
 function RootLayout({children}) {
-  retutn (
+  return (
     <div>
      <h1 className="font-bold text-4xl text-center">Posts</h1>
    {children}
